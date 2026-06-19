@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Para Mi Amor ❤️</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin:0;
+}
+
+.contenedor{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,.2);
+    width:80%;
+    max-width:500px;
+}
+
+button{
+    background:#ff4d6d;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e63956;
+}
+
+#mensaje{
+    margin-top:20px;
+    display:none;
+    font-size:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h1>❤️ Para Ti ❤️</h1>
+
+<p>Tengo algo que decirte...</p>
+
+<button onclick="mostrarMensaje()">
+Haz clic aquí
+</button>
+
+<div id="mensaje">
+
+Mi amor,
+
+Desde que llegaste a mi vida,
+cada día tiene más sentido.
+
+Gracias por existir,
+por tu sonrisa,
+por tu cariño
+y por hacerme tan feliz.
+
+Te amo muchísimo. ❤️
+
+</div>
+
+</div>
+
+<script>
+
+function mostrarMensaje(){
+    document.getElementById("mensaje").style.display="block";
+}
+
+</script>
+
+</body>
+</html>
